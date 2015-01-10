@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1420764269 source:/home/ch0l1n3/Documents/CodeBlocks/SpaceInvaders/alien.cpp
+	"alien.h"
+
+1420779358 /home/ch0l1n3/Documents/CodeBlocks/SpaceInvaders/alien.h
+	<SDL/SDL.h>
+	"SDL_Deleter.h"
+
+1420851038 /home/ch0l1n3/Documents/CodeBlocks/SpaceInvaders/SDL_Deleter.h
+	<memory>
+
+1420918615 source:/home/ch0l1n3/Documents/CodeBlocks/SpaceInvaders/game.cpp
+	"game.h"
+	<cstdlib>
+	<ctime>
+	<iostream>
+
+1420918587 /home/ch0l1n3/Documents/CodeBlocks/SpaceInvaders/game.h
+	<SDL/SDL.h>
+	<SDL/SDL_ttf.h>
+	"tank.h"
+	"missile.h"
+	"alien.h"
+	<vector>
+
+1420780418 /home/ch0l1n3/Documents/CodeBlocks/SpaceInvaders/tank.h
+	<SDL/SDL.h>
+
+1420847809 /home/ch0l1n3/Documents/CodeBlocks/SpaceInvaders/missile.h
+	<SDL/SDL.h>
+	"SDL_Deleter.h"
+
+1420764415 source:/home/ch0l1n3/Documents/CodeBlocks/SpaceInvaders/missile.cpp
+	"missile.h"
+
+1420775513 source:/home/ch0l1n3/Documents/CodeBlocks/SpaceInvaders/tank.cpp
+	"tank.h"
+
+1420849471 source:/home/ch0l1n3/Documents/CodeBlocks/SpaceInvaders/main.cpp
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<time.h>
+	"game.h"
+
